@@ -8,6 +8,12 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  
+"cli":{
+    "cache": {
+      "path": "/tmp/.angular/cache"
+    }
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.1.0",
